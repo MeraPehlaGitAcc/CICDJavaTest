@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorld {
     @GetMapping("/home")
     public String message(){
-        return "Hello World";
+        return "Hello World with a Modified Commit from Cloud!";
     }
 
     @GetMapping("/view")
